@@ -1,0 +1,32 @@
+{
+  "name": "greetz-carota",
+  "description": "A pure JS library for rich text editing",
+  "main": "",
+  "authors": [
+    "Daniel Earwicker (dan@earwicker.com)",
+    "Bas Horsting <bas.horsting@greetz.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "RTF",
+    "text",
+    "editing",
+    "opentype",
+    "typography"
+  ],
+  "homepage": "https://github.com/GreetzNL/carota",
+  "moduleType": [
+    "globals"
+  ],
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "spec",
+    "unit",
+    "fonts"
+  ],
+  "dependencies": {
+    "greetz-opentype": "git@github.com:GreetzNL/opentype-text-rendering.git#master"
+  }
+}
